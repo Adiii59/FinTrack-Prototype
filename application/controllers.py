@@ -3,7 +3,7 @@ from flask import render_template
 from .product import Product
 
 PRODUCTS = [
-    Product("https://www.mgviplounge.com/wp-content/uploads/2019/12/Airpods-Pro.jpg", "Air Pods"),
+    Product("static/airpods.jpg", "Air Pods"),
     Product("https://m.media-amazon.com/images/I/41ElkS-Z9ML._SX300_SY300_QL70_FMwebp_.jpg", "Smart Watch")
 
 ]
