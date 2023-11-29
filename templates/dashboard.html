@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+{{ super() }}
+
+{% block navigation %} <li class="nav-item"><a class="nav-link" href="/profile">Profile</a></li>{% endblock %}
+<h1>Dashboard</h1>
+
+<h5>Hello User!👋</h5>
+<h3>Dream Product Selected</h3>
+<div class="card" style="width: 18rem; justify-content: center; text-align: center; margin: auto;">
+    <img src="https://www.mgviplounge.com/wp-content/uploads/2019/12/Airpods-Pro.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+        <h5 class="card-title">Air Pods</h5>
+        <div class="progress">
+            <div class="progress-bar progress-bar-striped bg-warning w-25" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">25%</div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

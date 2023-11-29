@@ -1,0 +1,88 @@
+{% extends "base.html" %}
+{% block title %}Home Page{% endblock %}
+
+{% block content %}
+{{ super() }}
+<section class="h-100 gradient-custom-2">
+    <div class="container py-5 h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col col-lg-9 col-xl-7">
+                <div class="card">
+                    <div class="rounded-top text-white d-flex flex-row" style="background-color: #000; height:200px;">
+                        <div class="ms-4 mt-5 d-flex flex-column" style="width: 150px;">
+                            <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-profiles/avatar-1.webp"
+                                alt="Generic placeholder image" class="img-fluid img-thumbnail mt-4 mb-2"
+                                style="width: 150px; z-index: 1">
+                            <a type="button" href="/refer" class="btn btn-outline-dark" data-mdb-ripple-color="dark"
+                                style="z-index: 1;">
+                                Refer Someone
+                            </a>
+                        </div>
+                        <div class="ms-3" style="margin-top: 130px;">
+                            <h5>Andy Horwitz</h5>
+                            <p>New York</p>
+                        </div>
+                    </div>
+                    <div class="p-4 text-black" style="background-color: #f8f9fa;">
+                        <div class="d-flex flex-column justify-content-center text-center margin-auto">
+
+                            <div style="padding-top: 100px;">
+                                <button type="button" class="btn btn-outline-dark w-100" data-mdb-ripple-color="dark"
+                                    style="z-index: 1;">
+                                    See All Monetary Rewards
+                                </button>
+                            </div>
+
+                            <div style="padding-top: 10px;">
+                                <button type="button" class="btn btn-outline-dark w-100" data-mdb-ripple-color="dark"
+                                    style="z-index: 1;">
+                                    See All Non-Monetary Rewards
+                                </button>
+                            </div>
+
+                            <div style="padding-top: 10px;">
+                                <button type="button" class="btn btn-outline-dark w-100" data-mdb-ripple-color="dark"
+                                    style="z-index: 1;">
+                                    Check Referral Tree
+                                </button>
+                            </div>
+
+
+                        </div>
+
+
+
+                    </div>
+
+                    <div class="p-4 text-black justify-space-between" style="background-color: #f8f9fa;">
+                        <div class="d-flex flex-row text-center w-100" style="justify-content: space-between;">
+
+                            <div style="padding-top: 100px;">
+                                <button type="button" class="btn btn-outline-dark" data-mdb-ripple-color="dark"
+                                    style="z-index: 1;">
+                                    Log Out
+                                </button>
+
+                                <button type="button" class="btn btn-outline-dark" data-mdb-ripple-color="dark"
+                                    style="z-index: 1;">
+                                    Help
+                                </button>
+                            </div>
+
+
+
+
+
+
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+{% endblock %}

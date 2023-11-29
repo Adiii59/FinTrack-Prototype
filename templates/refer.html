@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}Home Page{% endblock %}
+
+{% block content %}
+{{ super() }}
+{% block navigation %}<li class="nav-item"><a class="nav-link" href="/profile">Profile</a></li> {% endblock %}
+<div class="main" style = "margin: auto; width: 20%; padding-top: 100px;">
+    <div class="card" style="width: 18rem; ">
+        <div class="card-body">
+          <h5 class="card-title">Your Referral Code is:</h5><br>
+          <p class="card-text">USERNAME</p>
+        </div>
+      </div>
+</div>
+
+
+{% endblock %}

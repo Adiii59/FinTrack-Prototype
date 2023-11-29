@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+{{ super() }}
+<h1>Select a Dream Product!</h1>
+
+{% for product in products %}
+<div class="main" style="padding: 10px; float: left; margin: auto; text-align: center; justify-self: center;">
+    <div class="card" style="width: 18rem;">
+        <img src="{{product.image}}" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">{{product.title}}</h5>
+            <center><a href="/dashboard"  class="btn btn-primary">Select</a></center>
+        </div>
+    </div>
+</div>
+
+{% endfor %}
+
+{% endblock %}
